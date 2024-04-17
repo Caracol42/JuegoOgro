@@ -3,6 +3,11 @@ using namespace std;
 
 class hp {
 public:
+
+	//Atributos
+	int ActualHP;
+	int MaxHP;
+
 	bool nuevoHpMaximo(int new_hp_max) {
 		if (new_hp_max < 1)
 			return;
@@ -46,8 +51,7 @@ public:
 
 
 private:
-	int ActualHP;
-	int MaxHP;
+	
 
 
 };

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d1911230-e3f5-438b-9d40-bf17362f3ce1}</ProjectGuid>
-    <RootNamespace>JuegoOgro</RootNamespace>
+    <ProjectGuid>{85967798-c59f-4eda-9a24-0be8b10e7661}</ProjectGuid>
+    <RootNamespace>RPGPrototipo</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,14 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="casilla.h" />
-    <ClInclude Include="Erresire.h" />
-    <ClInclude Include="hp.h" />
-    <ClInclude Include="piso.h" />
-    <ClInclude Include="Taberna.h" />
+    <ClCompile Include="mainprototipo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
